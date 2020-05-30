@@ -1,0 +1,15 @@
+.todoContainer {
+  display: flex;
+}
+
+@media (max-width: 760px) {
+  .todoContainer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .todoContainer {
+    font-size: small;
+  }
+}
