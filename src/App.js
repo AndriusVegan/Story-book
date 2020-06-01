@@ -18,9 +18,9 @@ function App() {
   }
 
   return (
-    <div>
-      <form>
-        <input value= {input} onChange={e => setInput(e.target.value)} type="text" />
+    <div className="App">
+      <form className="todo-form">
+        <input className="input-box" value= {input} onChange={e => setInput(e.target.value)} type="text" />
         <button type="submit" onClick={addTodo}>ADD TODO</button>
       </form>
       <TodoContainer todos={todos} />

@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-content: space-between;
+  border-radius: 8px;
+}
+
+.todo-form {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.input-box {
+  border-radius: 8px;
+  margin: 8px;
+  min-height: 2em;
+}
